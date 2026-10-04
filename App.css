@@ -1,0 +1,45 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.landing-page {
+  background-image: url('https://images.unsplash.com/photo-1470058869958-2a77ade41c02?auto=format&fit=crop&w=1920&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.background-image {
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 40px;
+  border-radius: 16px;
+  text-align: center;
+  color: #ffffff;
+  max-width: 650px;
+  margin: 20px;
+}
+
+.get-started-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.get-started-button:hover {
+  background-color: #388E3C;
+}
